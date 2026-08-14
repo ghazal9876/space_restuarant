@@ -1,5 +1,5 @@
 // Edit this file to change the restaurant menu.
-export const MENU = [
+const MENU = [
   { id: 'purple-planet-pizza', name: 'The Big Cheese Bang', description: 'Black garlic cream, roasted tomato, blue cheese and thyme.', price: 24, category: 'Pizzas', emoji: '🍕' },
   { id: 'solar-margherita-pizza', name: 'Cheesus Crust Superstar', description: 'Blistered tomato, fior di latte, basil oil and sun-dried chili.', price: 22, category: 'Pizzas', emoji: '🍕' },
   { id: 'saturn-rings-pizza', name: "Saturn's Cheese Rings", description: 'Spiced sausage, caramelized onion, mozzarella and golden honey.', price: 27, category: 'Pizzas', emoji: '🍕' },
@@ -17,5 +17,21 @@ export const MENU = [
   { id: 'io-moon-tart', name: 'Io Moon, Io Tart', description: 'Passionfruit custard, toasted meringue and a bright ginger crust.', price: 13, category: 'Desserts', emoji: '◐' },
   { id: 'titan-pudding', name: 'Titan’s Pudding Nebula', description: 'Silky caramel pudding with hazelnut dust and orange mist.', price: 14, category: 'Desserts', emoji: '◒' },
   { id: 'comet-cola', name: 'Cola-rt of the Comet', description: 'House cola with citrus, ginger and a fizz trail.', price: 7, category: 'Drinks', emoji: '↗' },
-  { id: 'starlight-tea', name: 'Tea-Minute to Launch', description: 'Jasmine tea, pear nectar and a constellation of mint.', price: 8, category: 'Drinks', emoji: '⌁' }
+  { id: 'starlight-tea', name: 'Tea-Minute to Launch', description: 'Jasmine tea, pear nectar and a constellation of mint.', price: 8, category: 'Drinks', emoji: '⌁' },
+  { id: 'asteroid-arancini', name: 'Aranci-Nova', description: 'Crispy risotto asteroids with molten mozzarella and tomato orbit sauce.', price: 15, category: 'Starters', emoji: '☄' },
+  { id: 'black-hole-nachos', name: 'Black Hole Nachos', description: 'Tortilla chips, cosmic cheddar, jalapeño stars and avocado nebula.', price: 16, category: 'Starters', emoji: '◉' },
+  { id: 'galactic-tacos', name: 'Taco Bout Space', description: 'Three meteor tacos with spiced beans, salsa verde and rocket slaw.', price: 21, category: 'Mains', emoji: '♢' },
+  { id: 'cosmic-lasagna', name: 'Lasagna Final Frontier', description: 'Layered pasta, roasted vegetables, tomato supernova and three-cheese melt.', price: 26, category: 'Mains', emoji: '✧' },
+  { id: 'supernova-sundae', name: 'Supernova Sundae', description: 'Vanilla ice cream, berry blast, chocolate orbit and popping candy stars.', price: 13, category: 'Desserts', emoji: '✹' },
+  { id: 'moon-pie', name: 'That’s No Moon Pie', description: 'Gooey chocolate marshmallow pie with a graham-cracker crater.', price: 14, category: 'Desserts', emoji: '☾' },
+  { id: 'nebula-fizz', name: 'Nebula Fizz', description: 'Blueberry, lime and sparkling citrus with a violet galaxy swirl.', price: 9, category: 'Drinks', emoji: '✺' },
+  { id: 'mars-mule', name: 'Mars Mule', description: 'Ginger beer, cranberry, lime and a fiery red planet garnish.', price: 10, category: 'Drinks', emoji: '♂' },
+  { id: 'moon-rock-mozzarella', name: 'Moon Rock Mozzarella Sticks', description: 'Golden mozzarella with meteor marinara.', price: 14, category: 'Starters', emoji: '☾' },
+  { id: 'galaxy-garlic-bread', name: 'Galaxy Garlic Bread', description: 'Toasted garlic bread with a three-cheese constellation.', price: 11, category: 'Starters', emoji: '✦' },
+  { id: 'comet-chicken-chips', name: 'Comet Chicken & Chips', description: 'Crispy chicken, asteroid potatoes, and lunar herb mayo.', price: 23, category: 'Mains', emoji: '☄' },
+  { id: 'planetary-pasta', name: 'The Great Planetary Pasta', description: 'Creamy tomato pasta with roasted vegetables and parmesan stardust.', price: 24, category: 'Mains', emoji: '◎' },
+  { id: 'black-hole-brownie', name: 'Black Hole Brownie', description: 'Warm chocolate brownie with vanilla cloud and chocolate meteorites.', price: 12, category: 'Desserts', emoji: '●' },
+  { id: 'cosmic-cheesecake', name: 'Cosmic Cheesecake', description: 'Blueberry cheesecake with a biscuit asteroid belt.', price: 15, category: 'Desserts', emoji: '★' },
+  { id: 'saturn-citrus-sparkler', name: 'Saturn’s Citrus Sparkler', description: 'Orange, lemon, mint, and sparkling comet water.', price: 8, category: 'Drinks', emoji: '♄' },
+  { id: 'milky-way-milkshake', name: 'Milky Way Milkshake', description: 'Vanilla, chocolate, and silver-star sprinkles.', price: 12, category: 'Drinks', emoji: '✦' }
 ];
